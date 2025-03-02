@@ -254,4 +254,72 @@ button:hover {
     box-shadow: 0 10px 25px rgba(0, 188, 212, 0.6);
     transform: scale(1.05);
 }
+/* Estilos Responsivos */
+@media (max-width: 900px) {
+    body {
+        padding: 10px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    header nav ul li {
+        display: inline-block;
+    }
+
+    header nav ul li a {
+        font-size: 1rem;
+        padding: 10px 15px;
+        white-space: nowrap;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .alunos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aluno {
+        width: 90%;
+    }
+
+    .feedback-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feedback-img {
+        margin-bottom: 10px;
+    }
+
+    .agendamento-btn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .agendamento-btn a button {
+        font-size: 1rem;
+        padding: 12px 20px;
+        white-space: nowrap;
+    }
+}
+
 
